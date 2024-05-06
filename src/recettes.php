@@ -1,8 +1,9 @@
 <?php
     require_once __DIR__ . '/parts/header.php'
 ?>
-    <h1>Hello <?php echo $_POST["username"] ?> </h1>
 
+<h1>Hello <?php echo $_POST["username"] ?> </h1>
+    
     <?php
         // Connect to db
         $db_connect = new PDO("mysql:host=db;dbname=wordpress", 'root', 'admin');
@@ -16,6 +17,8 @@
         $recettes = $request->fetchAll(PDO::FETCH_ASSOC);
         // show data
     ?>
+
+
 
     <?php foreach($recettes as $recette):
         
