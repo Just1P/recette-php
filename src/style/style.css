@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.front-page {
+  height: 100vh;
+}
+
+.illustration {
+  background-image: url(../img/front-page-illustration.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.form-container .form {
+  display: flex;
+}
+.form-container .title {
+  padding: 20px;
+}
+.form-container input {
+  font-size: 20px;
+  border: none;
+}
+.form-container .btn-submit {
+  background-color: rgb(255, 192, 203);
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+.form-container .btn-submit:hover {
+  background-color: #ff8da1;
+  transition: 0.3s;
+}
+.form-container .alert {
+  padding: 20px;
+  width: 100%;
+  border: 0.5px solid;
+  border-radius: 10px;
+  opacity: 75%;
+  color: white;
+  margin-top: 30px;
+}
+.form-container .alert-danger {
+  background-color: rgb(255, 0, 0);
+  border: rgb(255, 0, 0);
+}/*# sourceMappingURL=style.css.map */
