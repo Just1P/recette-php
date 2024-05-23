@@ -3,6 +3,7 @@ require_once __DIR__ . '/parts/header.php';
 ?>
 
 <div class="container">
+    <div class="front-page form-container col-6">
     <h1 class="title">Inscription</h1>
     <form action="../scripts/signup.php" method="post" class="form">
         <input type="text" name="username" placeholder="Username" required>
@@ -20,6 +21,9 @@ require_once __DIR__ . '/parts/header.php';
             <?php echo htmlspecialchars($_GET['success']); ?>
         </div>
     <?php endif; ?>
+    </div>
+    <div class="front-page illustration col-6">
+    </div>
 </div>
 
 <?php
